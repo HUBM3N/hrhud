@@ -2,6 +2,7 @@
 {
 	"HudKothTimeStatus"
 	{
+"ypos" "r35"
 		"zpos"										"0"
 
 		"if_match"
@@ -37,13 +38,15 @@
 			"textAlignment"							"center"
 			"labelText"								"0:00"
 			"font"									"m0refont16Shadow"
-			"fgcolor"								"White"
+			"fgcolor"								"100 125 255 255"
 
 			"if_match"
 			{
 				"xpos"								"cs-0.5"
 				"ypos"								"-2"
 				"tall"								"15"
+			"fgcolor"								"25 100 210 255"
+
 			}
 		}
 	}
@@ -75,13 +78,15 @@
 			"textAlignment"							"center"
 			"labelText"								"0:00"
 			"font"									"m0refont16Shadow"
-			"fgcolor"								"White"
+			"fgcolor"								"255 125 100 255"
 
 			"if_match"
 			{
 				"xpos"								"cs-0.5"
 				"ypos"								"-2"
 				"tall"								"15"
+			"fgcolor"								"225 50 25 255"
+
 			}
 		}
 	}
@@ -93,10 +98,11 @@
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"44"
-		"tall"										"16"
+		"tall"										"13"
 		"visible"									"0"
 		"enabled"									"1"
 		"fillcolor"									"TransparentLightBlack"
 		"scaleImage"								"1"
+"paintbackgroundtype" "2"
 	}
 }

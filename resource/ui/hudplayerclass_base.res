@@ -82,6 +82,130 @@
 
 
 }
+		"PartySlot0"
+		{
+			"ControlName"							"CDashboardPartyMember"
+			"fieldName"								"PartySlot0"
+			"xpos"									"-909909"//r48
+			"ypos"									"r288"
+			"zpos"									"100"
+			"wide"									"48"
+			"tall"									"48"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"mouseinputenabled"						"1"
+			"keyboardinputenabled"					"0"
+
+			"party_slot"							"0"
+
+
+		}
+		"PartySlot1"
+		{
+			"ControlName"							"CDashboardPartyMember"
+			"fieldName"								"PartySlot1"
+			"xpos"									"1"
+			"ypos"									"0"
+			"zpos"									"100"
+			"wide"									"48"
+			"tall"									"48"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"mouseinputenabled"						"1"
+			"keyboardinputenabled"					"0"
+
+			"party_slot"							"1"
+
+			"pin_to_sibling"						"PartySlot0"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"				"PIN_CENTER_BOTTOM"
+		}
+		"PartySlot2"
+		{
+			"ControlName"							"CDashboardPartyMember"
+			"fieldName"								"PartySlot2"
+			"xpos"									"1"
+			"ypos"									"0"
+			"zpos"									"100"
+			"wide"									"48"
+			"tall"									"48"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"mouseinputenabled"						"1"
+			"keyboardinputenabled"					"0"
+
+			"party_slot"							"2"
+
+			"pin_to_sibling"						"PartySlot1"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"				"PIN_CENTER_BOTTOM"
+		}
+		"PartySlot3"
+		{
+			"ControlName"							"CDashboardPartyMember"
+			"fieldName"								"PartySlot3"
+			"xpos"									"1"
+			"ypos"									"0"
+			"zpos"									"100"
+			"wide"									"48"
+			"tall"									"48"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"mouseinputenabled"						"1"
+			"keyboardinputenabled"					"0"
+
+			"party_slot"							"3"
+
+			"pin_to_sibling"						"PartySlot2"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"				"PIN_CENTER_BOTTOM"
+		}
+		"PartySlot4"
+		{
+			"ControlName"							"CDashboardPartyMember"
+			"fieldName"								"PartySlot4"
+			"xpos"									"1"
+			"ypos"									"0"
+			"zpos"									"100"
+			"wide"									"48"
+			"tall"									"48"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"mouseinputenabled"						"1"
+			"keyboardinputenabled"					"0"
+
+			"party_slot"							"4"
+
+			"pin_to_sibling"						"PartySlot3"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"				"PIN_CENTER_BOTTOM"
+		}
+		"PartySlot5"
+		{
+			"ControlName"							"CDashboardPartyMember"
+			"fieldName"								"PartySlot5"
+			"xpos"									"1"
+			"ypos"									"0"
+			"zpos"									"100"
+			"wide"									"48"
+			"tall"									"48"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"mouseinputenabled"						"1"
+			"keyboardinputenabled"					"0"
+
+			"party_slot"							"5"
+
+			"pin_to_sibling"						"PartySlot4"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"				"PIN_CENTER_BOTTOM"
+		}
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"								"CTFImagePanel"

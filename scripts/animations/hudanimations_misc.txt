@@ -15,11 +15,6 @@ RunEvent ScopeRemoval 0.0
 event HudSpyDisguiseChanged
 {
 
-
-
-
-	
-
 	RunEvent HudSpyDisguiseHide	0.7
 }
 
@@ -37,6 +32,8 @@ event HudSpyDisguiseFadeIn
 	Animate PlayerStatusClassImage		Alpha		"255"			Linear 0.0 0.0
 	Animate disguising		position		"r140 r50"			Linear 0.0 0.0
 	Animate disguising		position		"999999 99999"			Linear 0.7 0.0
+//	Animate PartySlot0		position		"r48 r332"			Linear 0.0 0.0
+
 }
 
 event HudSpyDisguiseFadeOut
@@ -44,6 +41,8 @@ event HudSpyDisguiseFadeOut
 	RunEvent HudSpyDisguiseChanged	0
 	Animate border_disguise		Alpha		"0"			Linear 0.0 0.0
 	Animate PlayerStatusClassImage		Alpha		"0"			Linear 0.0 0.0
+//	Animate PartySlot0		position		"r48 r288"			Linear 0.0 0.0
+
 }
 
 

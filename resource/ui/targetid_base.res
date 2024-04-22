@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"0"
+		"xpos"			"9999999"//0
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"252"
@@ -51,8 +51,8 @@
 		"xpos"			"999990"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"25"
+		"wide"			"999999"
+		"tall"	 		"999999"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -65,6 +65,25 @@
 			
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
+	}
+	"TargetIDBGb"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"TargetIDBGb"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"500"
+		"tall"	 		"555"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"		"1"
+		"fillcolor"									"black"
+
+		
+
 	}
 	"TargetBGshade"
 	{

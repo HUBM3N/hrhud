@@ -29,7 +29,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"ServerTimeLimitLabel"
 		"xpos"										"cs-0.5"
-		"ypos"										"14"
+			"ypos"									"-4"
 		"zpos"										"3"
 		"wide"										"f0"
 		"tall"										"15"
@@ -39,11 +39,11 @@
 		"labelText"									"%servertimeleft%"
 		"textAlignment"								"center"
 		"font"										"m0refont12Shadow"
-		"fgcolor"									"White"
+		"fgcolor"									"0 225 0 255"
 
 		"if_match"
 		{
-			"ypos"									"14"
+			"ypos"									"-4"
 		}
 	}
 	"ServerTimeLimitLabelBG"
@@ -51,7 +51,7 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ServerTimeLimitLabelBG"
 		"xpos"										"cs-0.5"
-		"ypos"										"15"
+		"ypos"										"r67"
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"0"
