@@ -1,0 +1,32 @@
+//===========================================================================================================================
+// FULL UBER ANIMATION START
+//===========================================================================================================================
+event HudMedicChargedShadow
+{
+	// UBER METER -----------------------------------------------------------------------------------------------------------
+	Animate chargelabel								FgColor		"25 128 225 255"					Linear	0.0		0.0
+	Animate chargelabelbigshadow								FgColor		"25 128 225 255"					Linear	0.0		0.0
+	Animate icon								alpha		"0"					Linear	0.0		0.0
+	Animate icon1								alpha		"128"					Linear	0.0		0.0
+
+
+	RunEvent HudMedicChargedLoop					0.6
+}
+//===========================================================================================================================
+// FULL UBER ANIMATION STOP
+//===========================================================================================================================
+event HudMedicChargedStopShadow
+{
+	StopEvent HudMedicChargedShadow					0.0
+	StopEvent HudMedicChargedLoop					0.0
+	StopEvent HudMedicCharged						0.0
+
+	// SMALL UBER LABEL -----------------------------------------------------------------------------------------------------
+	Animate chargelabel								FgColor		"0 255 0 255"					Linear	0.0		0.0
+	Animate chargelabelbigshadow								FgColor		"0 255 0 255"						Linear	0.0		0.0
+	Animate icon								alpha		"128"					Linear	0.0		0.0
+	Animate icon1								alpha		"0"					Linear	0.0		0.0
+
+}
+
+//===========================================================================================================================

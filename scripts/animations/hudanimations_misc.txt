@@ -1,0 +1,108 @@
+event ScopeRemoval
+{
+Animate HudScope Position "9999 9999" Linear 0.0 0.0
+}
+
+event DamagedPlayer
+{
+RunEvent ScopeRemoval 0.0
+}
+
+
+//===========================================================================================================================
+
+// Spy Disguise
+event HudSpyDisguiseChanged
+{
+
+
+
+
+	
+
+	RunEvent HudSpyDisguiseHide	0.7
+}
+
+event HudSpyDisguiseHide
+{
+	
+
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}
+
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate border_disguise		Alpha		"255"			Linear 0.0 0.0
+	Animate PlayerStatusClassImage		Alpha		"255"			Linear 0.0 0.0
+	Animate disguising		position		"r140 r50"			Linear 0.0 0.0
+	Animate disguising		position		"999999 99999"			Linear 0.7 0.0
+}
+
+event HudSpyDisguiseFadeOut
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate border_disguise		Alpha		"0"			Linear 0.0 0.0
+	Animate PlayerStatusClassImage		Alpha		"0"			Linear 0.0 0.0
+}
+
+
+//===========================================================================================================================
+
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup						ypos		"-50"								Linear	0.0		0.001
+	Animate HudTournamentSetup						ypos		"32"								Spline	0.001	0.1
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup						ypos		"32"								Linear	0.0		0.001
+	Animate HudTournamentSetup						ypos		"-50"								Spline	0.001	0.6
+}
+
+//===========================================================================================================================
+
+event HudTournament_ShowTimerCompetitive
+{
+	Animate CountdownLabel							ypos		"110"								Linear	0		0
+	Animate CountdownLabelShadow					ypos		"110"								Linear	0		0
+
+	SetVisible CountdownBG							1 0
+	SetVisible CountdownLabel						1 0
+	SetVisible CountdownLabelShadow					1 0
+}
+
+event HudTournament_ShowTimerDefault
+{
+	Animate CountdownLabel							ypos		"110"								Linear	0		0
+	Animate CountdownLabelShadow					ypos		"110"								Linear	0		0
+
+	SetVisible CountdownBG							1 0
+	SetVisible CountdownLabel						1 0
+	SetVisible CountdownLabelShadow					1 0
+}
+
+//===========================================================================================================================
+
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue							FgColor		"255 255 100 255"					Linear	0.0		0.0
+}
+
+event ActiveTimerDim
+{
+	Animate TimePanelValue							FgColor		"White"								Linear	0.0		0.0
+}
+
+//===========================================================================================================================
+
+event HudSnapShotReminderIn
+{
+	RunEvent HudHealthDyingPulseStop				10.0
+	RunEvent HudHealthBonusPulseStop				10.0
+	RunEvent HudLowAmmoPulseStop					10.0
+	RunEvent HudMedicChargedStop					10.0
+}
+
+//===========================================================================================================================

@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"vgui\replay\thumbnails\breaking_oh"
+	"$vertexalpha"			"1"
+	"$alpha"				"1"
+	"$translucent"			"1"
+	"$vertexcolor"			"1"
+"$additive" "1"
+"Proxies"
+{
+"TextureScroll"
+{
+"texturescrollvar" "$baseTextureTransform"
+"texturescrollrate" "0.35"
+"texturescrollangle" "0.00"
+}
+}
+}
