@@ -168,7 +168,7 @@
 		"fieldName"		"border"
 		"xpos"			"0"
 		"ypos"			"r100"
-		"zpos"			"1"
+		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"100"
 		"visible"		"1"
@@ -176,6 +176,63 @@
 		"image"			"../vgui/replay/thumbnails/border"
 		"scaleImage"	"1"	
 "alpha" "255"
+
+
+}
+	"speedmeter"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"speedmeter"
+		"xpos"			"0"
+		"ypos"			"r9"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/speedmeter"
+		"scaleImage"	"1"	
+"alpha" "255"
+"drawcolor" "0 225 0 175"
+
+
+
+}
+	"speedmeter_low"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"speedmeter_low"
+		"xpos"			"0"
+		"ypos"			"r9"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/speedmeter"
+		"scaleImage"	"1"	
+"alpha" "0"
+"drawcolor" "175 25 25 175"
+
+
+
+}
+	"speedmeter_oh"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"speedmeter_oh"
+		"xpos"			"0"
+		"ypos"			"r9"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/speedmeter"
+		"scaleImage"	"1"	
+"alpha" "0"
+"drawcolor" "25 128 175 175"
+
 
 
 }

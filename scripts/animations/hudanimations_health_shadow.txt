@@ -31,6 +31,8 @@ event HudHealthBonusPulseShadow
 	Animate	breaking_2_oh			Alpha		"255"								Linear	0.0		0.0
 	Animate	normal			Alpha		"0"								Linear	0.0		0.0
 	Animate	bliss			Alpha		"255"								Linear	0.0		0.0
+	Animate	speedmeter			Alpha		"0"								Linear	0.0		0.0
+	Animate	speedmeter_oh			Alpha		"255"								Linear	0.0		0.0
 
 
 
@@ -71,6 +73,8 @@ event HudHealthBonusPulseStopShadow
 	Animate	breaking_2_oh			Alpha		"0"								Linear	0.0		0.0
 	Animate	normal			Alpha		"255"								Linear	0.0		0.0
 	Animate	bliss			Alpha		"0"								Linear	0.0		0.0
+	Animate	speedmeter			Alpha		"255"								Linear	0.0		0.0
+	Animate	speedmeter_oh			Alpha		"0"								Linear	0.0		0.0
 }
 
 //===========================================================================================================================
@@ -107,6 +111,8 @@ event HudHealthDyingPulseShadow
 	Animate	breaking_2_h			Alpha		"255"								Linear	0.0		0.0
 	Animate	normal			Alpha		"0"								Linear	0.0		0.0
 	Animate	low			Alpha		"255"								Linear	0.0		0.0
+	Animate	speedmeter			Alpha		"0"								Linear	0.0		0.0
+	Animate	speedmeter_low			Alpha		"255"								Linear	0.0		0.0
 
 	RunEvent HudHealthDyingPulseLoop				0.25
 }
@@ -144,5 +150,7 @@ event HudHealthDyingPulseStopShadow
 	Animate	bgg1			Alpha		"0"								Linear	0.0		0.0
 	Animate	normal			Alpha		"255"								Linear	0.0		0.0
 	Animate	low			Alpha		"0"								Linear	0.0		0.0
+	Animate	speedmeter			Alpha		"255"								Linear	0.0		0.0
+	Animate	speedmeter_low			Alpha		"0"								Linear	0.0		0.0
 }
 

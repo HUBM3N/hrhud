@@ -13,14 +13,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/border_bg"
+		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		
-		"src_corner_height"		"4"				// pixels inside the image
-		"src_corner_width"		"4"
+		"src_corner_height"		"555"				// pixels inside the image
+		"src_corner_width"		"555"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+"drawcolor" "0 0 0 255"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -74,13 +75,14 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"500"
-		"tall"	 		"555"
+		"tall"	 		"5555"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
 		"fillcolor"									"black"
+"alpha" "225"
 
 		
 
